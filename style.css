@@ -1,0 +1,732 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(116 149 149);
+    width: 221px;
+    height: 50vw;
+    transition: transform 0.5s ease-in;
+    border-radius: 15px;
+}
+.sidebar nav{
+    padding: 30px;
+    height: 0vw;
+}
+.sidebar nav li{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 100px;
+    background-color: #efc297;
+    text-align: center;
+    background-image: url(background-image/blog.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+   
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 100%;
+    height:100px;
+
+}
+.container{
+    display: flex;
+    height: 650px;
+    /* background-color: rgb(239, 196, 215); */
+}
+.infocontainer{
+    
+    height: 60vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.devPic{
+    height: 59vw;
+    width: 40vw;
+    margin-top: 9px;
+    margin-left: 60px;
+    /* background-color: aqua; */
+    background-image: url(background-image/home-profile.png);
+    background-repeat: none;
+    background-size: 100% 100%;
+}
+.devInfo{
+    margin-top: 250px;
+    margin-left: 180px;
+    width: 40vw;
+    color: white;
+    height: 35vw;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 45px;
+    padding-left: 20px;
+}
+.name{
+    font-size: 40px;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+.about{
+    font-size: 20px;
+    font-family: 'roboto',sans-serif;
+    font-weight: 460;
+    padding-left: 20px;
+}
+.moreAbout{
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    height: 30px;
+    width: 120px;
+    margin: 9px 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: dogerblue;
+    background-color: #51a281;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: #51a281;
+}
+.devPic img{
+    height: 70vh;
+}
+
+.main .home{
+    background-image: url(background-image/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: 110% 110% ;
+    margin-top: -100px;
+    
+}
+#ham-img{
+    background-color: #767575;
+    margin-top: 10px;
+}
+/* =======================for contact page ======================================================= */
+.main h2{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.contact{
+    height: 50vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(background-image/intro.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+}
+.form-page{
+    display: flex;
+    margin-left: 13vw;
+}
+.left{
+    height: 39vw;
+    width: 34vw;
+    font-size: 24px;
+}
+.left p{
+    padding: 10px;
+    text-align: center;
+}
+.left a{
+    text-decoration: none;
+}
+.right {
+    height: 39vw;
+    width: 34vw;
+    margin-left: 77px;
+    font-size: 22px;
+}
+.mb-3{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.mb-3 input{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.form-text{
+    padding: 10px;
+}
+.form-control{
+    width: 27vw;
+    height: 33px;
+    border-radius: 15px;
+}
+#clientenquiry {
+    width: 37vw;
+    height: 10vw;
+    border: black 2px;
+    border-radius: 0px;
+    font-size: 20px;
+}
+.form-check{
+    flex-direction: row;
+}
+.btn{
+    height: 30px;
+    width: 120px;
+    /* margin: 20vw; */
+    border-radius: 10px;
+    color: white;
+    background-color: dogerblue;
+    background-color: #51a281;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px ;
+    margin-left: 145px;
+    cursor: pointer;
+    margin-bottom: px;
+}
+.btn:hover{
+    background-color: white;
+    color: #51a281;
+}
+
+/* ======================================css for education========================================= */
+.education{
+    background-image: url(background-image/education.jpg); 
+    background-size: 100% 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#edu-head{
+    font-size: 40px;
+    text-decoration: underline bold;
+    color: rgb(6, 55, 43);
+}
+#edu-para{
+    text-align: center;
+    width: 70vw;
+    font-size: 22px;
+    margin-top: 18px;
+    margin-left: 18vw;
+    color: #ffffff;
+    font-weight: bold;
+}
+#edu-para span{
+    color: #f8a85c;
+}
+
+.btech ,.intermidiate ,.highschool{
+    border: 4px solid black;
+    margin-top: 20px;
+    margin-left: 15vw;
+    height: 12.5vw;
+    width: 75vw;
+    border-radius: 40px;
+    background-image: url(background-image/education-blocks.jpg); 
+    background-size: 100% 100%;
+}
+
+.btech h2{
+    /* margin-left: 20vw; */
+    padding: 10px;
+}
+.intermidiate h2{
+    /* margin-left: 30vw; */
+    padding: 10px;
+}
+.highschool h2{
+    /* margin-left: 33vw; */
+    padding: 10px;
+}
+.innerbtech ,.innerintermidiate ,.innerhighschool{
+    display: flex;   
+}
+
+.detail-1 ,.detail-2 ,.detail-3{
+    display: flex;
+}
+.detail-1 h3 ,.detail-2 h3 ,.detail-3 h3{
+    margin-top: 25px;
+    padding-left: 10px;
+}
+.detail-10{
+    margin-left: 9.5vw;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail-12 {
+    margin-left: 5.5vw;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail-btech{
+    margin-left: 20vw;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bietlogo ,#uplogo{
+    height: 90px;
+    margin-left: 40px;
+}
+
+/* ==============================projects style=============================================== */
+.project-container {
+   background-image: url(background-image/projects.jpg);
+   background-size: 100% 100%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project-container h2{
+    /* margin-left: 42vw; */
+    font-size: 46px;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+}
+.project-container p{
+    text-align: center;
+    font-size: 22px;
+    width: 63vw;
+    margin-left: 20vw;
+    font-weight: bold;
+    padding-bottom: 11px;
+    color: rgb(255, 255, 255);
+}
+.project-container p span{
+    color: rgb(77 89 240);
+}
+.project-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 107px;
+}
+.project-row-1{
+    display: flex;
+    padding: 20px;
+}
+.project-1{
+    /* background-color: #efc297; */
+    height: 20vw;
+    width: 35vw;
+    
+}
+.project-2{
+    /* background-color: aqua; */
+    height: 20vw;
+    width: 35vw;
+    margin-left: 100px;
+}
+.project-row-2{
+    /* background-color: #efc297; */
+    height: 15vw;
+    width: 35vw;
+    margin-left: 22vw;
+    margin-bottom: 10px;
+}
+.project-1 ,.project-2 ,.project-row-2{
+    background-image: url(background-image/project-blocks.jpg);
+    background-size: 100% 100%;
+    border-radius: 40px;
+}
+.project-head{
+    padding : 20px;
+    margin-left: 10vw;
+    font-size: 25px;
+    font-weight: bold;
+}
+.project-1 ul li{
+    margin-left: 30px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.project-2 ul li{
+    margin-left: 30px;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.project-row-2 ul li{
+    margin-left: 30px;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+/* ===============================css of intro page========================================== */
+
+.introcontainer{
+    background-image: url(background-image/intro.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 110% 110% ;
+
+}
+.devIntro{
+    padding: 20px;
+    margin-left: 100px;
+    color:rgb(18, 20, 20);
+    
+}
+.devIntro p{
+    margin: 2px;
+    padding-top:3px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+.about-me{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about-me h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-me p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}
+.contactdetail{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* margin-left: 10px; */
+}
+.contactdetail div{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.social-media{
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.social-media h2{
+    margin-left: -15vw;
+    padding-bottom: 40px;
+}
+.social-media ul li {
+    list-style: none;
+    padding-right: 90px;
+}
+.social-media ul{
+    display: flex;;
+    flex-direction: row;
+   
+}
+#linkedin{
+    height: 80.5px;
+}
+#facebook{
+    height: 80px;
+    width: 80px;
+}
+#twitter{
+    height: 80px;
+}
+#instagram{
+    height: 75px;
+}
+.social-media p{
+    margin-top: 10px;  
+    margin-left: 20%;
+    font-size:15px;
+    font-style: italic;
+}
+
+
+
+.sidebargo{
+    transform: translate(-234px, 0px);
+    /* position: absolute; */
+   }
+
+/* =============================three dot and cross=============================== */
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 3px;
+}
+.cross{
+    margin-left: 180px;
+    /* margin-top: 5px; */
+}
+.ham{
+   height: 29px;
+}
+
+
+
+
+
+
+/* ====================================css for skill page =========================== */
+#p1{
+    margin-left: 35vw;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20vw;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills{
+    background-image: url(background-image/skills.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 110% 110% ;
+}
+.skills-column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills-column ul li{
+    list-style: none;
+}
+.language ,.web-developer ,.data-base ,.course-work ,.dev-tools{
+    
+    background-image: url(background-image/blog.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 110% 110% ;
+    border: 1px;
+    border-radius: 30px;
+    border-width: 10px;
+    
+}
+.language{
+    margin-right: 5vw;
+    height: 18vw;
+    width: 40vw;
+    padding-top: 47px;
+}
+.language ,.web-developer ,.data-base ,.course-work ,.dev-tools li{
+    font-size: 18px;
+}
+.skills h2{
+    text-decoration: solid underline;
+    margin-bottom: 20px;
+}
+
+
+
+.web-developer{
+    margin-right: 5vw;
+    height: 18vw;
+    width: 40vw;
+    padding-top: 47px;
+}
+.list-2{
+ display: flex;
+ margin-left: 50px;
+}
+.list-2 ul{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.data-base{
+    margin-right: 0vw;
+    height: 18vw;
+    width: 40vw;
+    padding-top: 47px;
+}
+
+.course-work{
+    margin-right: 10vw;
+    height: 18vw;
+    width: 27vw;
+    padding-top: 47px;
+}
+.dev-tools{
+    height: 18vw;
+    width: 27vw;
+    padding-top: 47px;
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 30px;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 30px;
+    margin-left: 20vw;
+    
+}
+#c {
+    
+    height: 25px;
+}
+#cpp{
+    height: 28px;
+}
+#py{
+ height: 25px;
+}
+#html{
+    height: 25px;
+}
+#css{
+    height: 25px;
+}
+#js{
+    height: 25px;
+}
+#react{
+    height: 25px;
+}
+#node{
+    height: 25px;
+}
+#express{
+    height: 25px;
+}
+
+#mongo{
+    height: 25px;
+}
+#mysql{
+    height: 25px;
+}
+#ds{
+    height: 25px;
+}
+#algo{
+    height: 25px;
+}
+#vscode{
+    height: 25px;
+}
+#git{
+    height: 25px;
+}
+
+
+/* ======================================css for profile============================== */
+.profile{
+    background-image: url(background-image/profile1.jpg);
+    background-repeat: no-repeat;
+    background-size:100%  100% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.accomplishment h2{
+    font-size: 40px;
+    color: rgb(34, 73, 190);
+}
+.accomplishment p{
+    color: rgb(34, 73, 190);
+    padding-top: 10px;
+    font-size: 26px;
+    margin-left: 10vw;
+}
+.accomplishment-data{
+    height: 18vw;
+    width: 73vw;
+    border-radius: 20px;
+    margin-left: 14vw;
+    background-image: url(background-image/profile-links.jpg);
+    background-repeat: no-repeat;
+    background-size:100%  100% ;
+    font-size: large;
+    font-weight: bold;
+}
+.accomplishment-data li{
+    margin: 30px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.links{
+    margin-top: 20px;
+}
+.links h2{
+    color: rgb(34, 73, 190);
+    font-size: 40px;
+}
+.link-data{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 95px;
+    
+}
+.link-data div a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 8vw;
+    font-size: 17px;
+    text-decoration: none;
+    padding-bottom: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link-data div a img{
+    border-radius: 20px;
+    background-image: url(background-image/profile-links.jpg);
+    background-repeat: no-repeat;
+    background-size:100%  100% ;
+
+}
+#hackerrank_logo ,#gfg_logo ,#leetcode_logo ,#codechef_logo ,#github_logo{
+    height: 7vw;
+    width: 7vw;
+}
+.links h3{
+    margin-left: 40vw;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+/* =====================================for responsive================================ */
+
+@media only screen and (max-width: 1400px) {
+   /* .sidebar{
+    transform: translate(-234px, 0px);
+    position: absolute;
+   } */
+  }
+
